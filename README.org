@@ -1,2 +1,11 @@
 # brightshift
+* Brightshift
+
 Easily manage your screen brightness using DDC/CI.
+
+Usage:
+brightshift <brightness>    Set brightness level (0-100) on supported displays
+brightshift --help          Print usage information
+brightshift --status        Check if displays support brightness adjustment
+brightshift --get           Get current brightness level
+brightshift +/-<number>     Adjust brightness by the specified value (0-100)
